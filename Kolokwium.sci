@@ -31,4 +31,18 @@ xtitle('Wykres funkcji f = log2(x) i f = 2*x^2 - 3*x + 1/X');
 
 zadanie 3
 
+lata = [2010 2012 2024];
+przychod = [42332 23243 33244];
+koszty = [2323 2332 3212];
+zyski = [3233 4323 5986];
 
+clf();
+bar([przychod; koszty; zyski]', "grouped");
+
+xlabel("Rok");
+ylabel("Kwota");
+title("Wykres słupkowy przychodów, kosztów i zysków");
+
+legend(["Przychód", "Koszty", "Zyski"]);
+
+grid on;
