@@ -15,7 +15,9 @@ I = epsilon / (R_z + R_w);
 I
 
 d) 
-
+n = 5:50;
+suma = sum((n+7)./(n.^3+2));
+suma
 
 zad 2 
 
