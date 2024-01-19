@@ -16,3 +16,13 @@ I
 
 d) 
 
+
+zad 2 
+
+x = 2:0.01:6;
+f1 = log2(x);
+f2 = 2*x.^2 - 3*x + 1./x; 
+clf; 
+plot(x, f1, 'r'); 
+plot(x, f2, 'b'); 
+xtitle('Wykres funkcji f = log2(x) i f = 2*x^2 - 3*x + 1/X'); 
