@@ -1,7 +1,9 @@
 
 Zadanie 1
 a)
-acot(12/5)
+x = 5/12;
+result = acot(x);
+result
 
 b)
 A = [3,-2,3;-2,3,8;6,4,0];
