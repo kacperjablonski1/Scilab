@@ -28,3 +28,7 @@ clf;
 plot(x, f1, 'r'); 
 plot(x, f2, 'b'); 
 xtitle('Wykres funkcji f = log2(x) i f = 2*x^2 - 3*x + 1/X'); 
+
+zadanie 3
+
+
